@@ -4,16 +4,24 @@ h1 {
     text-align: center;
     text-transform: uppercase;
 }
-.areaBonita {
-    border: 1px;
-    border-radius: 10%;
-    background-color: #b1c2b1 ;
-    color: #435043 ;
-    height: 50px;
-    width: 350px;
-    font-size: 20px;
 
-}label {
+
+label {
  padding: 10px;
- ;
+display: grid;
+}
+body {
+
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image: radial-gradient(circle at center center, #a6fd52, #e5e5f7), repeating-radial-gradient(circle at center center, #a6fd52, #a6fd52, 10px, transparent 20px, transparent 10px);
+    background-blend-mode: multiply;
+    background-position: 0 0, 10px 10px;
+   
+}
+.form{
+    background-color: #19b30b;
+    margin: auto;
+    width: 90%;
+    max-width: 400px;
 }
